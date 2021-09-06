@@ -1,0 +1,10 @@
+Zadanie 4.1 
+najdłuższa luka: 1056392131 
+ najkrótsza luka 1
+Zadanie 4.2 
+najdłuższy ciąg regularny: 17 
+początek: 193134524
+koniec luki: 223545714
+Zadanie 4.3 
+najczęstsza wartość luki: 149
+najczęstsza krotność luki: 31
