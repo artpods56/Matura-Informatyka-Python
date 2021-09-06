@@ -20,9 +20,7 @@ def main():
     start_luki = 0
     end_luki = 0
     for i in range(1,len(luki)):
-    #        print(f"luka: {luki[i-1]}  miedzy: {ciagi[i-1]} oraz: {ciagi[i]}")
 
-    #       najdluzsza i najkrotsza luka ciagow
         if luki[i-1] > max_luka:
             max_luka = luki[i-1]
         if luki[i-1] < min_luka:
@@ -32,16 +30,13 @@ def main():
             dl_luki += 1
 
         if luki[i] != luki[i-1] or luki[i] == luki[-1] :
-    #           print(f' koniec i start: {ciagi[i]} {ciagi[i - dl_luki]}')
+
             if dl_luki > naj_dl_luki:
                 end_luki = ciagi[i]
                 start_luki = ciagi[i-dl_luki]
                 naj_dl_luki = dl_luki+1
-
-
             dl_luki = 1
-
-        i += 1 #inkrementacja o +1
+        i += 1 
 
         r_occurances = max(luki, key=luki.count)
         r_count = luki.count(r_occurances)
