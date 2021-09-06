@@ -1,0 +1,2 @@
+Miasto o najmniejszej powierzchni całkowitej lokali: ['Wilno', 1620] 
+Miasto o największej powierzchni całkowitej lokali: ['Essen', 4760]

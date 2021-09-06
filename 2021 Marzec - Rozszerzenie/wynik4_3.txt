@@ -1,0 +1,2 @@
+Miasto o największej ilości różnych lokali: ['Berlin', 35] 
+Miasto o najmnijeszej ilości różnych lokali: ['Kolonia', 18]
