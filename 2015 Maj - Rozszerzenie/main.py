@@ -45,6 +45,8 @@ for num in nums:
     if dziesietny(num)[0] < min:
         min = dziesietny(num)[0]
         min_nr = nr_rzedu
+
+
 print("zad1")
 print(c)
 print("\n")
@@ -57,4 +59,3 @@ print("\n")
 print("zad3")
 print(max,max_nr)
 print(min,min_nr)
-print("\n")
