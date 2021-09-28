@@ -70,5 +70,3 @@ print("Zad 6.5")
 print(kod_najmniejszej,"",najmniejsza)
 print(kod_najwiekszej,"",najwieksza)
 
-
-print(na_sysx("10",2))
