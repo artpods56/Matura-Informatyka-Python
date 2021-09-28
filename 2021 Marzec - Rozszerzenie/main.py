@@ -75,6 +75,6 @@ def main():
     plik4_3 = open("wynik4_3.txt","w")
     plik4_3.truncate()
     plik4_3.write(f"Miasto o największej ilości różnych lokali: {max_lokale} \nMiasto o najmnijeszej ilości różnych lokali: {min_lokale}")
-    print("gowno")
+    
 if __name__ == "__main__":
     main()
